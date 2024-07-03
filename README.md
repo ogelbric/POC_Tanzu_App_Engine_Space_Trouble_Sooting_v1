@@ -39,6 +39,8 @@ for package in $(kubectl get pkgi -o json | jq -r '.items[].metadata.name'); do 
 # A re-schedule of the space placed both nginx on the same cluster
 # Creating to avaliability targets and the resulting scheduling problem
 # Turns out label issues
+# Here are all the 26 steps I took to figgure out I can spell
+
 
 ```
 #Does the space have an issue? 
