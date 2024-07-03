@@ -161,3 +161,10 @@ k config use-context orfscluster; k get pods -A | grep nginx ; k config use-cont
 # orfspace1-5657bdb868-m48fd     orf-nginx-app-engine-57c7c88c69-ll28m                             2/2     Running     0                85m
 
 ```
+
+# Generate Traffic (low budget) 
+
+```
+watch -n 1 curl -v http://orf-nginx-app-engine.tanzu.gelbrich.com/
+```
+
