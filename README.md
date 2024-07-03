@@ -1,4 +1,4 @@
-# Patching Packages with different versions
+# Patching Packages with >0.0.0 version
 
 ```
 Patching Packages with different versions
